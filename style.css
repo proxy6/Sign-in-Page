@@ -1,32 +1,6 @@
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
-  color: #000;
-  font-weight: 300;
-}
-
 h3 {
   font-size: 20px;
   line-height: 30px;
-}
-
-.form-control::-webkit-input-placeholder {
-  color: #808080;
-  line-height: 25px;
-  font-size: 16px;
-}
-
-body {
-  overflow-x: hidden;
-}
-
-a {
-  font-size: inherit;
-  color: inherit;
-}
-
-a:focus, a:hover {
-  color: #2e7eed;
-  text-decoration: none;
 }
 
 .section {
@@ -38,38 +12,12 @@ a:focus, a:hover {
   margin-bottom: 80px;
 }
 
-.form-control.main {
-  background: #fff;
-  padding: 15px 20px;
-  margin-bottom: 20px;
-  border: 1px solid #cccccc;
-  font-size: 14px;
-}
-
-.form-control.main:focus {
-  border: 1px solid #2e7eed;
-}
-
-.form-control::-webkit-input-placeholder {
-  color: #808080;
-  font-size: 14px;
-}
-
 .btn-main-md {
   padding: 17px 38px;
   border-radius: 3px;
   background: #2e7eed;
   color: #fff;
   outline: none;
-}
-
-.btn-main-md:hover {
-  color: #fff;
-}
-
-.btn-main-md:focus {
-  color: #fff;
-  box-shadow: none;
 }
 
 .user-login {
@@ -81,25 +29,11 @@ a:focus, a:hover {
   display: flex;
 }
 
-@media (max-width: 768px) {
-  .user-login .block {
-    flex-wrap: wrap;
-  }
-}
-
 .user-login .block .image {
   flex-basis: 100%;
   margin-right: 40px;
 }
 
-@media (max-width: 768px) {
-  .user-login .block .image {
-    flex-grow: 1;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-right: 0;
-  }
-}
 .user-login .block .image img {
   border-radius: 8px;
 }
@@ -112,18 +46,8 @@ a:focus, a:hover {
   border-radius: 4px;
 }
 
-@media (max-width: 768px) {
-  .user-login .block .content {
-    flex-grow: 1;
-  }
-}
 .user-login .block .content .logo {
   margin-bottom: 80px;
-}
-@media (max-width: 992px) {
-  .user-login .block .content .logo {
-    margin-bottom: 40px;
-  }
 }
 
 .user-login .block .content .title-text {
@@ -145,4 +69,7 @@ a:focus, a:hover {
 
 .user-login .block .content .new-acount p a {
   color: #000;
+}
+.purple{
+  background: purple;
 }

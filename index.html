@@ -25,17 +25,17 @@
 						              <div class="title-text">
 							                <p>Sign in to  To Your Account</h3>
 						              </div>
-						                 <form action="script.cgi" onSubmit="return checkform()">
+						                 <form name="signIn" action="" onSubmit="validateForm()">
 							<!-- Username -->
-							                 <input class="form-control main" type="text" placeholder="Username" required>
+							                 <input name="name" class="form-control main" type="text" placeholder="Username" required><span id="nameloc"></span><br/
 							<!-- Password -->
-							                 <input class="form-control main" type="password" placeholder="Password" required>
+							                 <input name="password" class="form-control main" type="password" placeholder="Password" required><span id="numloc"></span><br/
 							<!-- Submit Button -->
-							                 <button class="btn btn-main-md" id="buttons">sign in</button>
+							                 <button value="register" class="btn btn-main-md" id="buttons">sign in</button>
 						                   </form>
 						                 <div class="new-acount">
 							                 <a href="#">Forget your password?</a>
-							                  <p>Don't Have an account? <a href="#"> SIGN UP</a></p>
+							                  <p id="signup">Don't Have an account? <a href="#"> SIGN UP</a></p>
 						                  </div>
                             </div>
                           </div>
@@ -45,6 +45,9 @@
           </section>
     <!-- CUSTOM SCRIPT -->
     <script src="script.js"></script>
+    <script type="text/javascript">
+
+    </script>
 </body>
 
 </html>
